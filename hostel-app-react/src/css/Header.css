@@ -1,0 +1,34 @@
+.Header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid black;
+	padding: 20px;
+}
+
+.Logo {
+	width: 20%;
+	min-width: 100px;
+}
+
+.Logo img {
+	width: 100%;
+}
+
+ul.Menu {
+	list-style-type: none;
+	padding-left: 0;
+	margin: 0;
+}
+
+ul.Menu li {
+	display: inline;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+ul.Menu li:hover {
+	cursor: pointer;
+	border-bottom: 1px solid black;
+}
