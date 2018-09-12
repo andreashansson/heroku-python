@@ -1,2 +1,2 @@
-gunicorn = "*"
+gunicorn
 Flask==0.12.2
